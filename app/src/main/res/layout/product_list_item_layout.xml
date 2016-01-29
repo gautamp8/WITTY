@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardElevation="10dp"
+        card_view:cardCornerRadius="4dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:id="@+id/productimageview"
+                android:src="@mipmap/ic_launcher"
+                android:contentDescription="Product Image"
+                android:layout_gravity="center"
+                android:padding="0dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:layout_weight="4">
+            <TextView
+                android:id="@+id/productname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Title"
+                android:fontFamily="sans-serif"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <TextView
+                android:id="@+id/productprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Price"
+                android:fontFamily="sans-serif"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <info.hoang8f.widget.FButton
+                    android:id="@+id/Addtocart"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ADD TO CART"
+                    android:focusable="false"
+                    android:textColor="@android:color/white"
+                    fbutton:buttonColor="@color/colorPrimary"
+                    fbutton:shadowColor="@color/colorPrimaryDark"
+                    fbutton:shadowEnabled="true"
+                    fbutton:shadowHeight="5dp"
+                    fbutton:cornerRadius="5dp"
+                    android:textSize="18sp"
+                    android:layout_gravity="start"
+                    android:layout_weight="3"
+                    android:layout_margin="10dp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold" />
+
+                <info.hoang8f.widget.FButton
+                    android:id="@+id/bargainbutton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="BARGAIN"
+                    android:textColor="@android:color/white"
+                    fbutton:buttonColor="@color/colorPrimary"
+                    fbutton:shadowColor="@color/colorPrimaryDark"
+                    fbutton:shadowEnabled="true"
+                    fbutton:shadowHeight="5dp"
+                    fbutton:cornerRadius="5dp"
+                    android:textSize="18sp"
+                    android:layout_weight="3"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="right"
+                    android:fontFamily="serif"
+                    android:textStyle="bold" />
+            </LinearLayout>
+                <TextView
+                    android:id="@+id/addedInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="This Product is in your Cart"
+                    android:fontFamily="sans-serif"
+                    android:textSize="15sp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp" />
+        </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

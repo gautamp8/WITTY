@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@mipmap/ic_launcher"
+            android:title="ALL" />
+        <item
+            android:id="@+id/nav_electronics"
+            android:icon="@mipmap/ic_launcher"
+            android:title="ELECTRONICS" />
+        <item
+            android:id="@+id/nav_mobiles"
+            android:icon="@mipmap/ic_launcher"
+            android:title="MOBILES" />
+        <item
+            android:id="@+id/nav_laptops"
+            android:icon="@mipmap/ic_launcher"
+            android:title="LAPTOPS" />
+        <item
+            android:id="@+id/nav_fashion"
+            android:icon="@mipmap/ic_launcher"
+            android:title="FASHION" />
+        <item
+            android:id="@+id/nav_footwear"
+            android:icon="@mipmap/ic_launcher"
+            android:title="FOOTWEAR" />
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@mipmap/ic_launcher"
+            android:title="SPORTS" />
+    </group>
+
+    <item android:title="COMMUNICATE">
+        <menu>
+            <item
+                android:id="@+id/nav_source"
+                android:icon="@drawable/ic_menu_share"
+                android:title="SOURCE" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_menu_send"
+                android:title="CONTACT US" />
+        </menu>
+    </item>
+
+</menu>

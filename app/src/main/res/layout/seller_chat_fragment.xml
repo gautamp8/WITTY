@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/noMessages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="You don't have any messages."
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:visibility="gone"/>
+    <brainbreaker.witty.Classes.NestedListView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/ChatListView"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="2dp"/>
+</LinearLayout>

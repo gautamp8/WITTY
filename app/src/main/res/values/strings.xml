@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">WITTY</string>
+    <string name="welcome_app_name">WELCOME TO WITTY</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_cart"> Witty Cart</string>
+    <string name="action_witty">Witty Cart</string>
+    <string name="action_sign_out">SIGN OUT</string>
+    <string name="title_activity_hawk">BARGAIN REQUESTS</string>
+    <string name="title_activity_login">SIGN IN</string>
+    <string name="empty_hawk"> :( CURRENTLY YOU DO NOT HAVE ANY ACTIVE BIDS.</string>
+    <string name="Loading1">"HANG ON A SECOND, WE ARE LISTING OUR AWESOME PRODUCTS FOR YOU!"</string>
+    <string name="Loading2">"HANG ON A SECOND... WE ARE UPDATING YOUR PRODUCT LIST."</string>
+    <string name="SuccessfulCart">" PRODUCT SUCCESSFULLY ADDED TO CART "</string>
+    <string name="SuccessfulBargain">"BARGAIN REQUEST SUCCESSFULLY COMPLETED"</string>
+    <string name="BargainQuestion">"WANT TO BARGAIN ON THE PRODUCT? ENTER THE PRICE"</string>
+    <string name="ViewOfferTextView">"<u>View Offer</u>"</string>
+    <string name="OfferText">"THAT'S NICE... YOU WANT TO GIVE USER AN OFFER?"</string>
+    <string name="OfferHint">"Additional Attractions(Freebies, Warranty etc.)"</string>
+    <string name="FinalPriceText">"Final price at which you are willing to sell"</string>
+    <string name="bargainError">" You cannot enter a price less than 40% more than 100% of the MRP of product. "</string>
+    <string name="SNACKBAR_CART">"YOU HAVE A NICE CHOICE!"</string>
+    <string name="Deleted_Cart">"ITEM SUCCESSFULLY DELETED FROM THE CART"</string>
+    <string name="Deleted_Bargain">"BARGAIN REQUEST SUCCESSFULLY WITHDRAWN"</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in_user">I AM USER</string>
+    <string name="action_sign_in_seller">I AM A SELLER</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+        <string name="pref_previously_started">yes</string>
+    </string>
+    <string name="title_activity_seller">SELLER</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string-array name="UserTips">
+        <item>"Tip!- We also give unexpected discounts to first buyer of a product if you add the product to cart directly!
+            So, Hurry Up!"</item>
+        <item>"Tip!- Instead of directly adding product to cart, try to save some bucks by bargain"</item>
+        <item>"Tip!- Our stats say users having personal chat with the seller save 10% more."</item>
+        <item>"Tip!- For any further information related to product you can chat with the seller. Tap on product for chat option!"</item>
+        <item>"Tip!- Our sellers also give attractive offers if you request bargain at around 10% less price."</item>
+        <item>"Tip!- Well behaved conversation with seller will increase the chances of accept of bargain request! "</item>
+        <item>"Tip!- You can also contact seller personally for customization of any product or additional benefits"</item>
+        <item>"Tip!- You can only request bargain on a product 2 times!"</item>
+        <item>"Tip!- You can also buy for higher price than mentioned in case product is low on stock!"</item>
+    </string-array>
+
+    <string name="facebook">"http://www.facebook.com/1brainbreaker"</string>
+    <string name="googlemail">"gautamprajapati06@gmail.com"</string>
+    <string name="linkedin">"https://in.linkedin.com/in/brainbreaker"</string>
+    <string name="github">https://github.com/brainbreaker</string>
+
+    <string name="action_settings">Settings</string>
+
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="brainbreaker.witty.CartActivity"
+    android:orientation="vertical">
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/cartlistView"
+        android:layout_gravity="center_horizontal"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="1dp"
+        android:transcriptMode="alwaysScroll"
+        android:layout_above="@+id/Checkoutbutton" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/Checkoutbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="PROCEED TO CHECKOUT"
+        android:textColor="@android:color/white"
+        fbutton:buttonColor="@color/colorPrimary"
+        fbutton:shadowColor="@color/colorPrimaryDark"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="5dp"
+        fbutton:cornerRadius="5dp"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

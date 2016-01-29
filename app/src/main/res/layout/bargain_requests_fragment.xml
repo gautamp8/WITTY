@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/Norequests"
+                android:text="CURRENTLY THERE ARE NO BARGAIN REQUESTS ON THIS PRODUCT"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+            <brainbreaker.witty.Classes.NestedListView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/bargainrequestlistView"
+                android:divider="@color/colorAccent"
+                android:dividerHeight="2dp"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+</LinearLayout>

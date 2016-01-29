@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardElevation="10dp"
+        card_view:cardCornerRadius="4dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/offerUsername"
+                android:text="HELLO THERE."
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/offersellername"
+                android:text="Seller Decathlon just gave you an offer!"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorAccent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/offer"
+                    android:textSize="18sp"
+                    android:text="New Offer-1 Year Accidental damage protection"
+                    android:fontFamily="serif"
+                    android:textColor="@color/colorPrimary"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textSize="18sp"
+                    android:id="@+id/offerprice"
+                    android:text="Offer Price: Rs. 20000"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorAccent"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageButton"
+                    android:background="@drawable/rounded_rectangle"
+                    android:src="@android:drawable/stat_notify_chat"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp" />
+
+                <info.hoang8f.widget.FButton
+                    android:id="@+id/offerchatbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:text="  SEND A MESSAGE TO SELLER   "
+                    android:textColor="@android:color/white"
+                    fbutton:buttonColor="@color/colorPrimary"
+                    fbutton:shadowEnabled="false"
+                    fbutton:cornerRadius="0dp"
+                    android:textSize="18sp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="left|center_vertical|center_horizontal"
+                    android:fontFamily="serif" />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorAccent"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="5dp">
+                <info.hoang8f.widget.FButton
+                    android:id="@+id/acceptofferbutton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="ACCEPT OFFER"
+                    android:focusable="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    fbutton:buttonColor="@color/colorGreen"
+                    fbutton:shadowColor="@color/colorGreenDark"
+                    fbutton:shadowEnabled="true"
+                    fbutton:shadowHeight="1dp"
+                    fbutton:cornerRadius="2dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:layout_margin="2dp" />
+                <info.hoang8f.widget.FButton
+                    android:id="@+id/rejectofferbutton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="REJECT OFFER"
+                    android:focusable="false"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    fbutton:buttonColor="@color/colorAccent"
+                    fbutton:shadowColor="@color/colorAccentDark"
+                    fbutton:shadowEnabled="true"
+                    fbutton:shadowHeight="1dp"
+                    fbutton:cornerRadius="2dp"
+                    android:layout_gravity="left"
+                    android:layout_weight="3"
+                    android:layout_margin="2dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

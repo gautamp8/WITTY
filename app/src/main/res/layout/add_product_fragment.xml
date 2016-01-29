@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent">
+            <AutoCompleteTextView
+                android:id="@+id/AddProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent">
+            <AutoCompleteTextView
+                android:id="@+id/AddProductDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Description"
+                android:inputType="text"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent">
+            <AutoCompleteTextView
+                android:id="@+id/AddProductPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Price"
+                android:inputType="number"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent">
+            <AutoCompleteTextView
+                android:id="@+id/AddProductURL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Product Image URL"
+                android:inputType="textUri"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent">
+            <AutoCompleteTextView
+                android:id="@+id/AddProductSeller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Seller Name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/colorAccent">
+            <AutoCompleteTextView
+                android:id="@+id/AddProductCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Category(Sports,Lifestyle,Electronics etc.)"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark"
+                android:textColorHint="@color/colorAccent"
+                android:textColorHighlight="@color/colorAccent"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/AddProductButton"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="ADD PRODUCT"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"
+                fbutton:buttonColor="@color/colorPrimary"
+                fbutton:shadowColor="@color/colorPrimaryDark"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="1dp"
+                fbutton:cornerRadius="2dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/ResetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="RESET"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"
+                fbutton:buttonColor="@color/colorPrimary"
+                fbutton:shadowColor="@color/colorPrimaryDark"
+                fbutton:shadowEnabled="true"
+                fbutton:shadowHeight="1dp"
+                fbutton:cornerRadius="2dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

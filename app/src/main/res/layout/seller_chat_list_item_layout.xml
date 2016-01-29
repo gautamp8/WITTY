@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:id="@+id/ProdutThumbnail"
+        android:background="@color/colorWhite"
+        android:padding="5dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="false"
+        android:clickable="false"
+        android:focusableInTouchMode="false">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="gautamprajapati06- Apple iPhone 6S"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:padding="5dp"
+            android:id="@+id/chattitle"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bargain Status- Accepted"
+            android:textSize="18sp"
+            android:fontFamily="serif"
+            android:padding="5dp"
+            android:id="@+id/BargainStatusTextView"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

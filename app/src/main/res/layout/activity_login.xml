@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="brainbreaker.witty.LoginActivity"
+    android:background="@drawable/wall2">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorWhite">
+        <AutoCompleteTextView
+            android:id="@+id/loginusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="serif"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textColorHighlight="@color/colorAccent"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/sign_in_user"
+        style="?android:textAppearanceSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/action_sign_in_user"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        fbutton:buttonColor="@color/colorAccentTransparent"
+        fbutton:shadowColor="@color/colorAccentDark"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="1dp"
+        fbutton:cornerRadius="2dp" />
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/sign_in_seller"
+        style="?android:textAppearanceSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/action_sign_in_seller"
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        fbutton:buttonColor="@color/colorAccentTransparent"
+        fbutton:shadowColor="@color/colorAccentDark"
+        fbutton:shadowEnabled="true"
+        fbutton:shadowHeight="1dp"
+        fbutton:cornerRadius="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/SHIMMERTEXTVIEWS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:id="@+id/Tagline"
+            android:text="E-COMMERCE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="serif"
+            android:textSize="30sp"
+            app:reflectionColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:id="@+id/Tagline2"
+            android:text="WITH A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            app:reflectionColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal" />
+        <com.romainpiel.shimmer.ShimmerTextView
+            android:id="@+id/Tagline3"
+            android:text="DIFFERENCE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="serif"
+            android:textSize="40sp"
+            app:reflectionColor="@color/colorAccent"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made By"
+        android:id="@+id/textView"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="serif"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gautam Prajapati"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="serif"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(brainbreaker)"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="serif"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/fb"
+        android:background="#00fffefe"
+        android:src="@drawable/fb"/>
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/gmail"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/gmail"
+        android:background="#00fffefe"
+        android:layout_marginLeft="10dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/linkedin"
+        android:layout_gravity="center_vertical"
+        android:background="#00fffefe"
+        android:src="@drawable/linked"
+        android:layout_marginLeft="10dp" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/github"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/github"
+        android:background="#00fffefe"
+        android:layout_marginLeft="10dp" />
+    </LinearLayout>
+</LinearLayout>

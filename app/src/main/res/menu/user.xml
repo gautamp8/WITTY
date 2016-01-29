@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_witty"
+        app:actionLayout="@layout/action_witty_layout"
+        android:title="@string/action_witty"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_cart"
+        app:actionLayout="@layout/action_cart_layout"
+        android:title="@string/action_cart"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+</menu>

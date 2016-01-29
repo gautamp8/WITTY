@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:descendantFocusability="blocksDescendants" >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        card_view:cardBackgroundColor="#FFF"
+        card_view:cardElevation="10dp"
+        card_view:cardCornerRadius="4dp"
+        android:focusable="false"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:focusable="false">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:id="@+id/pimageview"
+                android:src="@drawable/witty"
+                android:padding="10dp"
+                android:focusable="false"/>
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:focusable="false"
+                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:focusable="false"
+                >
+
+                <TextView
+                    android:id="@+id/productname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Title"
+                    android:fontFamily="sans-serif"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:focusable="false"/>
+                <TextView
+                    android:id="@+id/productprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product Price"
+                    android:fontFamily="sans-serif"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:focusable="false"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="Seller"
+                    android:id="@+id/sellername"
+                    android:fontFamily="sans-serif"
+                    android:focusable="false"
+                    />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/DeleteButton"
+                android:src="@android:drawable/ic_menu_delete"
+                android:background="#fffefe"
+                android:focusable="false"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

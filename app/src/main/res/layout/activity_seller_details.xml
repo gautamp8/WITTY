@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants">
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_views"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF"
+            card_view:cardBackgroundColor="#FFF"
+            card_view:cardElevation="10dp"
+            card_view:cardCornerRadius="4dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:id="@+id/SellerProductImageView"
+                    android:src="#6f9ac0"
+                    android:contentDescription="Product Image"
+                    android:layout_gravity="center"
+                    android:padding="0dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:id="@+id/SellerProductName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Product Title"
+                        android:fontFamily="sans-serif"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:id="@+id/SellerProductPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Product Price"
+                        android:fontFamily="sans-serif"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="5dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/SellerProductDescription"
+                        android:text="PRODUCT DESCRIPTION HERE"
+                        android:fontFamily="serif"
+                        android:gravity="center_horizontal"
+                        android:inputType="textMultiLine"
+                        android:layout_margin="5dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
