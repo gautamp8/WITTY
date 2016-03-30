@@ -1,9 +1,6 @@
 # WITTY
 An innovative E-commerce android app Prototype based on Firebase
 
-# WITTY
-An innovative E-commerce android app Prototype based on Firebase
-
 To understand the app's concept let's start with a story
 
 John knows a lot about buying products from the offline retailers, he has a decade worth of experience of shopping quality products, saving a lot of bucks by bargaining with the seller. 
