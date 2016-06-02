@@ -1,0 +1,216 @@
+{
+  "BargainCarts" : {
+    "buyer1" : {
+      "-K7uT2OtuvWvqrfoHlS3" : {
+        "bargainprice" : "25000",
+        "image" : "http://images.hngn.com/data/images/full/133787/iphone-6s-in-rose-gold.jpg?w=650",
+        "msp" : "Rs. 48,799",
+        "name" : "Apple Iphone 6S",
+        "status" : 0
+      }
+    },
+    "gautamprajapati06" : {
+      "-K7rP8Rk49utErsQdvp3" : {
+        "bargainprice" : "48000",
+        "image" : "http://images.hngn.com/data/images/full/133787/iphone-6s-in-rose-gold.jpg?w=650",
+        "msp" : "Rs. 48,799",
+        "name" : "Apple Iphone 6S",
+        "status" : 0
+      },
+      "-K7rPATXN-kr-wJDvBmE" : {
+        "bargainprice" : "48000",
+        "image" : "http://img1.lesnumeriques.com/news/23/23446/philips-pfl4007-tv-2012-g.jpg",
+        "msp" : "Rs. 47,000",
+        "name" : "TELEVISION",
+        "status" : 0
+      },
+      "-K7rPC45gLA-zJD4S5wL" : {
+        "bargainprice" : "171400",
+        "image" : "https://i.ytimg.com/vi/_Y4FMebp76k/maxresdefault.jpg",
+        "msp" : "Rs. 171,598",
+        "name" : "Apple MJLT2HN/A Macbook Pro",
+        "status" : 0
+      }
+    }
+  },
+  "Carts" : {
+    "buyer1" : {
+      "-K7uSjhD3M_IgP1-wS5a" : {
+        "image" : "http://images.hngn.com/data/images/full/133787/iphone-6s-in-rose-gold.jpg?w=650",
+        "msp" : "Rs. 48,799",
+        "name" : "Apple Iphone 6S"
+      }
+    },
+    "gautamprajapati06" : {
+      "-K7rP5w5XUZTXR5wF-PM" : {
+        "image" : "http://images.hngn.com/data/images/full/133787/iphone-6s-in-rose-gold.jpg?w=650",
+        "msp" : "Rs. 48,799",
+        "name" : "Apple Iphone 6S"
+      },
+      "-K7rP6Ze-AOZ6Qxogdbj" : {
+        "image" : "http://img1.lesnumeriques.com/news/23/23446/philips-pfl4007-tv-2012-g.jpg",
+        "msp" : "Rs. 47,000",
+        "name" : "TELEVISION"
+      },
+      "-K7rP6lhFBpgkXfl3D64" : {
+        "image" : "https://i.ytimg.com/vi/_Y4FMebp76k/maxresdefault.jpg",
+        "msp" : "Rs. 171,598",
+        "name" : "Apple MJLT2HN/A Macbook Pro"
+      }
+    }
+  },
+  "bid" : {
+    "bidid1" : {
+      "bidvalue" : "bidid1",
+      "productid1" : "xyz1",
+      "status" : "accepted"
+    }
+  },
+  "chat" : {
+    "-K7WwGl3i5QvARCPhLJ2" : {
+      "author" : "JavaUser22344",
+      "message" : "Hi!"
+    },
+    "-K7WwIk9hS09z6Z-mn6-" : {
+      "author" : "JavaUser22344",
+      "message" : "How are you?"
+    },
+    "-K7WwMLHSKMcbj6RZRqI" : {
+      "author" : "JavaUser22344",
+      "message" : "😱"
+    },
+    "-K7XSNJ6_fP442_bBcIi" : {
+      "author" : "JavaUser70219",
+      "message" : "iisshshjwwjsjbssbwhsjsjsjsbbsshbsebsjdjsvdjesbdhjwjsjsjwjskshshhssbbsjshsshshsjjdhßhhshshdhhbsbdbxvdbddbdbd sbdb"
+    },
+    "-K7XXRbqihjBLqzDEK3N" : {
+      "author" : "JavaUser70219",
+      "message" : "shsisbd"
+    },
+    "-K7XaxMbl9d1YlfaSBe3" : {
+      "author" : "JavaUser70219",
+      "message" : "fhjfvyfcjifbig"
+    },
+    "-K7ZwdiV3g17bQG0miYz" : {
+      "author" : "JavaUser17204",
+      "message" : "gdukvv"
+    },
+    "-K7_VYBjz1oHejiKyArh" : {
+      "author" : "JavaUser54558",
+      "message" : "Gautam Prajapati "
+    },
+    "-K7_Vy0iGFtu_XeIUb7d" : {
+      "author" : "JavaUser75056",
+      "message" : "Gautam"
+    },
+    "-K7_YtCvkndIOPqn8ZSx" : {
+      "author" : "JavaUser28153",
+      "message" : "Uuffugsdufy"
+    },
+    "-K7_hZgr_wzo_Xs-q2xu" : {
+      "author" : "gautamprajapati06@gmail.com",
+      "message" : "Gautam"
+    },
+    "-K7_iH0U1eif64-EzD0L" : {
+      "author" : "gautamprajapati06@gmail.com",
+      "message" : "Gggg"
+    },
+    "-K7_idKfy3e3Yc8JY5xy" : {
+      "author" : "gautamprajapati06@gmail.com",
+      "message" : "Ffs"
+    },
+    "-K7elYIv8dpXV0pvHQns" : {
+      "author" : "gautamprajapati06@gmail.com",
+      "message" : "Hi! @HAWK RETAILS ..."
+    },
+    "-K7em-dF4XC_usno47MN" : {
+      "author" : "gautamprajapati06@gmail.com",
+      "message" : "Gautam Prajapati"
+    },
+    "-K7f5CUyVA7jZMbGjxdD" : {
+      "author" : "gautamprajapati06@gmail.com",
+      "message" : "Hahavzbs"
+    },
+    "-K7oMt0b95OYbqUHATjX" : {
+      "author" : "buyer1@hawk.com",
+      "message" : "Hi",
+      "timestamp" : ""
+    }
+  },
+  "product" : {
+    "productid1" : {
+      "seller1" : "price1"
+    },
+    "productid2" : {
+      "seller1" : "price1",
+      "seller2" : "price5"
+    },
+    "productid3" : {
+      "seller1" : "price3"
+    },
+    "productid4" : {
+      "seller2" : "price5"
+    }
+  },
+  "productDisplay" : {
+    "productid1" : {
+      "description" : "16GB, Rose Gold",
+      "image" : "http://images.hngn.com/data/images/full/133787/iphone-6s-in-rose-gold.jpg?w=650",
+      "msp" : "Rs. 48,799",
+      "name" : "Apple Iphone 6S",
+      "seller" : "HAWK RETAILS"
+    },
+    "productid3" : {
+      "description" : "I lOVE you baby",
+      "image" : "http://img1.lesnumeriques.com/news/23/23446/philips-pfl4007-tv-2012-g.jpg",
+      "msp" : "Rs. 47,000",
+      "name" : "TELEVISION",
+      "seller" : "KART SHOPPING"
+    },
+    "prouctid2" : {
+      "description" : "16 GB RAM, Intel Core i5 (5th Gen) Processor",
+      "image" : "https://i.ytimg.com/vi/_Y4FMebp76k/maxresdefault.jpg",
+      "msp" : "Rs. 171,598",
+      "name" : "Apple MJLT2HN/A Macbook Pro",
+      "seller" : "ETSY ONLINE"
+    }
+  },
+  "seller" : {
+    "seller1" : {
+      "product1" : {
+        "bids" : {
+          "bidid1" : "bidvalue1"
+        },
+        "price" : "price1"
+      },
+      "productid1" : "price1",
+      "productid2" : "price2",
+      "productid3" : "price3"
+    },
+    "seller2" : {
+      "product2" : {
+        "price" : "price1",
+        "userbids" : {
+          "userid1" : "bid1",
+          "userid2" : "bid2"
+        }
+      },
+      "productid2" : "price5",
+      "productid4" : "price1"
+    }
+  },
+  "user" : {
+    "user1" : {
+      "productid1" : "bid1",
+      "productid2" : "bid2"
+    },
+    "user2" : {
+      "product1" : "bid4",
+      "productid3" : "bid3"
+    },
+    "user3" : {
+      "product5" : "bid3",
+      "productid2" : "bid1"
+    }
+  }
+}
