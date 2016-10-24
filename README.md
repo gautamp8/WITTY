@@ -1,7 +1,7 @@
 # WITTY
 An innovative E-commerce android app Prototype based on Firebase, made for IndiaHacks 2016 Hackathon
 # Screenshots
-<img src="https://s19.postimg.org/60hzc6ipv/image.png" height = '550' width="300">
+<img src="https://s19.postimg.org/60hzc6ipv/image.png" height = '550' width="300" margin ="100">
 <img src="https://s19.postimg.org/ehhhn3ner/image.png" height = '550' width="300">
 <img src="https://s19.postimg.org/bm4eg8jer/Screenshot_from_2016_10_24_10_58_11.png" height = '550' width="300">
 <img src="https://s19.postimg.org/mj5q5066b/Screenshot_from_2016_10_24_11_00_50.png" height = '550' width="300">
