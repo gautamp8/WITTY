@@ -1,31 +1,17 @@
 # WITTY
 An innovative E-commerce android app Prototype based on Firebase, made for IndiaHacks 2016 Hackathon
 # Screenshots
-Login Screen
 <img src="https://s19.postimg.org/60hzc6ipv/image.png" height = '550' width="300">
-![Login Screen](https://s19.postimg.org/60hzc6ipv/image.png)
-User Home
-![User Home](https://s19.postimg.org/ehhhn3ner/image.png)
-Bargain Dialog
-![Bargain Dialog](https://s19.postimg.org/bm4eg8jer/Screenshot_from_2016_10_24_10_58_11.png)
-Bargain Requests Screen
-![Bargain Requests](https://s19.postimg.org/a5svy3ghv/image.png)
-User Cart
-![Cart](https://s19.postimg.org/mj5q5066b/Screenshot_from_2016_10_24_11_00_50.png)
-User Navigation Menu
-![User Navigation Menu](https://s19.postimg.org/jb18ryjwj/Screenshot_from_2016_10_24_11_01_35.png)
-Seller Home
-![Seller Home](https://s19.postimg.org/53bk3b77n/image.png)
-Seller Navigation Menu
-![Seller Navigation Menu](https://s19.postimg.org/dx2gkeu6b/image.png)
-Seller Bargain Requests Screen
-![Seller Bargain Requests Screen](https://s19.postimg.org/qn6oxi24j/image.png)
-User Messages
-![User Messages](https://s19.postimg.org/4zhqn21qb/image.png)
-Chat Window
-![Chat Window](https://s19.postimg.org/48kf3j9z7/image.png)
-Add new Product
-![Add new Product](https://s19.postimg.org/tq2tn4rpf/w10.png)
+<img src="https://s19.postimg.org/ehhhn3ner/image.png" height = '550' width="300">
+<img src="https://s19.postimg.org/bm4eg8jer/Screenshot_from_2016_10_24_10_58_11.png" height = '550' width="300">
+<img src="https://s19.postimg.org/mj5q5066b/Screenshot_from_2016_10_24_11_00_50.png" height = '550' width="300">
+<img src="https://s19.postimg.org/jb18ryjwj/Screenshot_from_2016_10_24_11_01_35.png" height = '550' width="300">
+<img src="https://s19.postimg.org/53bk3b77n/image.png" height = '550' width="300">
+<img src="https://s19.postimg.org/dx2gkeu6b/image.png" height = '550' width="300">
+<img src="https://s19.postimg.org/qn6oxi24j/image.png" height = '550' width="300">
+<img src="https://s19.postimg.org/4zhqn21qb/image.png" height = '550' width="300">
+<img src="https://s19.postimg.org/48kf3j9z7/image.png" height = '550' width="300">
+<img src="https://s19.postimg.org/tq2tn4rpf/w10.png" height = '550' width="300">
 
 ### Update
 This project is based on Firebased 2.x SDK which is now deprecated. Please follow latest documentation on firebase.google.com to integrate firebase in your application. 
