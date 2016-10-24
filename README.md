@@ -2,7 +2,7 @@
 An innovative E-commerce android app Prototype based on Firebase, made for IndiaHacks 2016 Hackathon
 # Screenshots
 Login Screen
-<img src="https://s19.postimg.org/60hzc6ipv/image.png" height = '400' width="100">
+<img src="https://s19.postimg.org/60hzc6ipv/image.png" height = '400' width="200">
 ![Login Screen](https://s19.postimg.org/60hzc6ipv/image.png)
 User Home
 ![User Home](https://s19.postimg.org/ehhhn3ner/image.png)
