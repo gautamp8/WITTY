@@ -1,22 +1,25 @@
 # WITTY
 An innovative E-commerce android app Prototype based on Firebase, made for IndiaHacks 2016 Hackathon
 # Screenshots
-<img src="https://s19.postimg.org/60hzc6ipv/image.png" height = '550' width="300" margin ="100">
-<img src="https://s19.postimg.org/ehhhn3ner/image.png" height = '550' width="300">
-<img src="https://s19.postimg.org/bm4eg8jer/Screenshot_from_2016_10_24_10_58_11.png" height = '550' width="300">
-<img src="https://s19.postimg.org/mj5q5066b/Screenshot_from_2016_10_24_11_00_50.png" height = '550' width="300">
-<img src="https://s19.postimg.org/jb18ryjwj/Screenshot_from_2016_10_24_11_01_35.png" height = '550' width="300">
-<img src="https://s19.postimg.org/53bk3b77n/image.png" height = '550' width="300">
-<img src="https://s19.postimg.org/dx2gkeu6b/image.png" height = '550' width="300">
-<img src="https://s19.postimg.org/qn6oxi24j/image.png" height = '550' width="300">
-<img src="https://s19.postimg.org/4zhqn21qb/image.png" height = '550' width="300">
-<img src="https://s19.postimg.org/48kf3j9z7/image.png" height = '550' width="300">
-<img src="https://s19.postimg.org/tq2tn4rpf/w10.png" height = '550' width="300">
+There are too many of them...hang on!
+<img src="https://s19.postimg.org/60hzc6ipv/image.png" height = '400' width="240" margin ="100">
+<img src="https://s19.postimg.org/ehhhn3ner/image.png" height = '400' width="240">
+<img src="https://s19.postimg.org/bm4eg8jer/Screenshot_from_2016_10_24_10_58_11.png" height = '400' width="240">
+<img src="https://s19.postimg.org/mj5q5066b/Screenshot_from_2016_10_24_11_00_50.png" height = '400' width="240">
+<img src="https://s19.postimg.org/jb18ryjwj/Screenshot_from_2016_10_24_11_01_35.png" height = '400' width="240">
+<img src="https://s19.postimg.org/53bk3b77n/image.png" height = '400' width="240">
+<img src="https://s19.postimg.org/dx2gkeu6b/image.png" height = '400' width="240">
+<img src="https://s19.postimg.org/qn6oxi24j/image.png" height = '400' width="240">
+<img src="https://s19.postimg.org/4zhqn21qb/image.png" height = '400' width="240">
+<img src="https://s19.postimg.org/48kf3j9z7/image.png" height = '400' width="250">
+<img src="https://s19.postimg.org/tq2tn4rpf/w10.png" height = '400' width="250">
 
 ### Update
 This project is based on Firebased 2.x SDK which is now deprecated. Please follow latest documentation on firebase.google.com to integrate firebase in your application. 
 
 ## Story
+It's a long one too... mostly crappy. 
+
 To understand the app's concept let's start with a story
 
 John knows a lot about buying products from the offline retailers, he has a decade worth of experience of shopping quality products, saving a lot of bucks by bargaining with the seller. 
@@ -82,3 +85,24 @@ User Insights:
 - Every user can chat with every seller for each product. You don't have the constraint like you have to buy that product only then you can chat with the seller, even if you are interested in product you can ask details! 
 - History of the bids and the chats are recorded and are used to resolve disperancies in future.
 - All the above with necessary features of E-commerce like carts, product categories, sorting etc.
+
+### Contributions
+
+Contributions to Newsmeme are highly encouraged. If you have any suggestions on how we can improve the app, please feel free to contact me.
+As you're digging through the source. If you find something that's just really crappy, let me know and I'll put it higher up on my list of stuff to clean up. I'll be focusing on improving code quality of existing code over the next couple weeks.
+
+## License
+Copyright 2016, Gautam Prajapati
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
