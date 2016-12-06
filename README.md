@@ -17,7 +17,7 @@ An innovative E-commerce android app Prototype based on Firebase, made for India
 This project is based on Firebased 2.x SDK which is now deprecated. Please follow latest documentation on firebase.google.com to integrate firebase in your application. 
 
 ## Story
-It's a long one too... mostly crappy. 
+It's a long one... hang on! 
 
 To understand the app's concept let's start with a story
 
@@ -87,7 +87,7 @@ User Insights:
 
 ### Contributions
 
-Contributions to Newsmeme are highly encouraged. If you have any suggestions on how we can improve the app, please feel free to contact me.
+Contributions to Witty are highly encouraged. If you have any suggestions on how we can improve the app, please feel free to contact me.
 As you're digging through the source. If you find something that's just really crappy, let me know and I'll put it higher up on my list of stuff to clean up. I'll be focusing on improving code quality of existing code over the next couple weeks.
 
 ## License
