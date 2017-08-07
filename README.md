@@ -1,5 +1,15 @@
 # WITTY
 An innovative E-commerce android app Prototype based on Firebase, made for IndiaHacks 2016 Hackathon. Watch the video demo of the application here: https://www.youtube.com/watch?v=ih6YC6pvrEc
+
+### Update
+This project is based on Firebased 2.x SDK which is now deprecated. Please follow latest documentation on firebase.google.com to integrate firebase in your application. 
+
+You can use the project code however you want but I'd suggest you read the updated firebase documentation, make your own database of products according to the POJOs in the app/src/main/java/brainbreaker/witty/Classes package.
+
+For reference, you can take a look at this JSON export of my database: https://github.com/brainbreaker/WITTY/blob/master/bargainkart-export%20(1).json
+
+If you do that correctly and update the relevant firebase code you'd be able to run the app. If you want to send a pull request after updating the code, you're more than welcome.
+
 # Screenshots
 <img src="https://s19.postimg.org/60hzc6ipv/image.png" height = '400' width="240" margin ="100">
 <img src="https://s19.postimg.org/ehhhn3ner/image.png" height = '400' width="240">
@@ -12,9 +22,6 @@ An innovative E-commerce android app Prototype based on Firebase, made for India
 <img src="https://s19.postimg.org/4zhqn21qb/image.png" height = '400' width="240">
 <img src="https://s19.postimg.org/48kf3j9z7/image.png" height = '400' width="250">
 <img src="https://s19.postimg.org/tq2tn4rpf/w10.png" height = '400' width="250">
-
-### Update
-This project is based on Firebased 2.x SDK which is now deprecated. Please follow latest documentation on firebase.google.com to integrate firebase in your application. 
 
 ## Story
 It's a long one... hang on! 
